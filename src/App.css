@@ -3,7 +3,6 @@ body {
 }
 
 h1,
-h2,
 h3,
 .card-body > .card-title {
   font-family: 'Lobster', cursive;
@@ -15,7 +14,7 @@ h3,
 }
 
 h2 {
-  color: #3046c5;
+  color: #333333;
 }
 
 .card-img-overlay .card-title {
@@ -48,7 +47,7 @@ h2 {
 }
 
 .navbar-dark {
-  background-image: linear-gradient(to right, white, #a1e3d8, #005555);
+  background-image: linear-gradient(to right, #005555, #a1e3d8, #005555);
   margin-bottom: 2rem;
   min-height: 8rem;
 }

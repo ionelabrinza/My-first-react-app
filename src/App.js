@@ -3,18 +3,17 @@ import ContactPage from './pages/ContactPage';
 import HomePage from './pages/HomePage';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import ProjectsList from './features/projects/ProjectsList';
+import ProjectsDirectoryPage from './pages/ProjectsDirectoryPage';
 import './App.css';
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Header />
-      <ProjectsList />
-
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="contact" element={<ContactPage />} />
+        <Route path="directory" element={<ProjectsDirectoryPage />} />
       </Routes>
       <Footer />
     </div>
