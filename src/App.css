@@ -71,3 +71,7 @@ h2 {
   opacity: 0;
   transition: 300ms ease-in;
 }
+
+ul {
+  list-style-type: none;
+}
