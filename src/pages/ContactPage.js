@@ -1,4 +1,5 @@
 import { Container, Row, Col } from 'reactstrap';
+import ContactForm from '../components/ContactForm';
 
 const ContactPage = () => {
   return (
@@ -21,7 +22,15 @@ const ContactPage = () => {
           </a>
         </Col>
       </Row>
-      <Row className="row-content"></Row>
+      <Row className="row-content">
+        <Col xs="12">
+          <h2>Get in Touch</h2>
+          <hr />
+        </Col>
+        <Col md="10">
+          <ContactForm />
+        </Col>
+      </Row>
     </Container>
   );
 };
