@@ -19,7 +19,10 @@ const Header = () => {
           <img src={NicoletaLogo} alt="nicoleta logo" className="float-start" />
           <h1 className="mt-1">Nicoleta Brinza</h1>
         </NavbarBrand>
-        <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
+        <NavbarToggler
+          className="nav-toggle"
+          onClick={() => setMenuOpen(!menuOpen)}
+        />
         <Collapse isOpen={menuOpen} navbar>
           <Nav className="ms-auto" navbar>
             <NavItem>
